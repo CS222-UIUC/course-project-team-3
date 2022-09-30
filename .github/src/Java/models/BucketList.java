@@ -1,6 +1,9 @@
 
 import java.util.ArrayList;
 
+import static org.junit.Assert.assertFalse;
+import static org.junit.Assert.assertTrue;
+
 public class BucketList {
     private ArrayList<String> b_List;
 
