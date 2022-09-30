@@ -28,5 +28,4 @@ public class BucketList {
         int final_size = b_list.size();
         assertTrue(initial_size > final_size);
     }
-
 }
