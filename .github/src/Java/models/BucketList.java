@@ -9,7 +9,7 @@ public class BucketList {
     public void addItem(String item) {
         b_List.add(item);
     }
-    public bool removeItem(String item) {
+    public boolean removeItem(String item) {
         return b_List.remove(item);
     }
 }
