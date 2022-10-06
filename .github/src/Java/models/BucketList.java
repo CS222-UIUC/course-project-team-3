@@ -7,6 +7,10 @@ import static org.junit.Assert.assertTrue;
 public class BucketList {
     private ArrayList<String> b_List;
     private int b_length;
+    private String name;
+    public String getName() {
+        return name;
+    }
 
     @Test
     public BucketList() {
