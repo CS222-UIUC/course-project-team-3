@@ -1,4 +1,4 @@
 # course-project-team-3
 course-project-team-3 created by GitHub Classroom
 
-![badges](.badges/main/coverage.svg)
+![code coverage](https://img.shields.io/badge/coverage-100%25-brightgreen)
