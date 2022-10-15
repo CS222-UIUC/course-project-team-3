@@ -26,6 +26,7 @@ public class BucketList {
     public String getItem(int index) {
         return b_List.get(index);
     }
+    // new
     public Boolean getComplete(int index) {
         return complete.get(index);
     }
