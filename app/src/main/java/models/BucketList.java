@@ -10,18 +10,28 @@ public class BucketList {
     @SuppressWarnings("FieldMayBeFinal")
     private ArrayList<String> b_List;
     private int listSize;
+    private ArrayList<Boolean> complete;
 
     public BucketList() {
         b_List = new ArrayList<>();
         listSize = 0;
+        complete = new ArrayList<Boolean>();
     }
 
     public void addItem(String item) {
         b_List.add(item);
         listSize++;
+        complete.add(false);
     }
     public String getItem(int index) {
         return b_List.get(index);
+    }
+    public Boolean getComplete(int index) {
+        return complete.get(index);
+    }
+    public Boolean markComplete(int index) {
+        complete.set(index, true);
+        return complete.get(index);
     }
     public int getIndex(String item) {
         for (int i = 0; i < listSize; i++) {

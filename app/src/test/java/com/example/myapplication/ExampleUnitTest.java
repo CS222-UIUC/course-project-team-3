@@ -33,4 +33,17 @@ public class ExampleUnitTest {
         assertEquals("eat food", b.getItem(0));
         assertEquals(1, b.size());
     }
+    @Test
+    public void marked_Complete_tests() {
+        BucketList b = new BucketList();
+        b.addItem("skydiving");
+        b.addItem("eat food");
+        assertEquals(1, b.getIndex("eat food"));
+        assertTrue(b.getComplete(0) == false);
+        assertTrue(b.getComplete(1) == false);
+        b.markComplete(1);
+        assertTrue(b.getComplete(0) == false);
+        assertTrue(b.getComplete(1) == true);
+
+    }
 }
