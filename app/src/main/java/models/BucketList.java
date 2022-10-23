@@ -31,7 +31,11 @@ public class BucketList {
         return complete.get(index);
     }
     public Boolean markComplete(int index) {
-        complete.set(index, true);
+        if (complete.get(index).equals(false)) {
+            complete.set(index, true);
+        } else {
+            complete.set(index, false);
+        }
         return complete.get(index);
     }
     public int getIndex(String item) {
