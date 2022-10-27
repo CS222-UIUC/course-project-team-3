@@ -10,12 +10,17 @@ public class BucketList {
     @SuppressWarnings("FieldMayBeFinal")
     private ArrayList<String> b_List;
     private int listSize;
+    private String name;
     private ArrayList<Boolean> complete;
 
     public BucketList() {
         b_List = new ArrayList<>();
         listSize = 0;
         complete = new ArrayList<Boolean>();
+    }
+
+    public String getName() {
+        return name;
     }
 
     public void addItem(String item) {
