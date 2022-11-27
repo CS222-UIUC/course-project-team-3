@@ -27,7 +27,7 @@ public class UserPage extends AppCompatActivity {
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_main);
+        setContentView(R.layout.user_page);
 
         //assign image button to profile pic
         pImage = findViewById(R.id.profilepic);
