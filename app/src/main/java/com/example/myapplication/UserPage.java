@@ -1,7 +1,6 @@
 package com.example.myapplication;
 
 import android.Manifest;
-import android.app.Activity;
 import android.content.Intent;
 import android.content.pm.PackageManager;
 import android.os.Build;
@@ -21,7 +20,7 @@ import androidx.annotation.NonNull;
 import androidx.appcompat.app.AppCompatActivity;
 
 public class UserPage extends AppCompatActivity {
-    ImageButton pImage, pImage2, pImage3, pImage4, pImage5, pImage6, pImage7, pImage8, pImage9, pImage10, pImage11, pImage12, pImage13;
+    ImageButton pImage;
     private static final int IMAGE_PICK_CODE = 1000;
     private static final int PERMISSION_CODE = 1001;
 
@@ -29,118 +28,6 @@ public class UserPage extends AppCompatActivity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.user_page);
-
-
-        pImage2 = (ImageButton)findViewById(R.id.pImage2);
-        pImage3 = (ImageButton)findViewById(R.id.pImage3);
-        pImage4 = (ImageButton)findViewById(R.id.pImage4);
-        pImage5 = (ImageButton)findViewById(R.id.pImage5);
-        pImage6 = (ImageButton)findViewById(R.id.pImage6);
-        pImage7 = (ImageButton)findViewById(R.id.pImage7);
-        pImage8 = (ImageButton)findViewById(R.id.pImage8);
-        pImage9 = (ImageButton)findViewById(R.id.pImage9);
-        pImage10 = (ImageButton)findViewById(R.id.pImage10);
-        pImage11 = (ImageButton)findViewById(R.id.pImage11);
-        pImage12 = (ImageButton)findViewById(R.id.pImage12);
-        pImage13 = (ImageButton)findViewById(R.id.pImage13);
-
-        pImage2.setOnClickListener(new View.OnClickListener() {
-            @Override
-            public void onClick(View view) {
-                Intent i = new Intent(UserPage.this, Activity2.class);
-                startActivity(i);
-                finish();
-            }
-        });
-        pImage3.setOnClickListener(new View.OnClickListener() {
-            @Override
-            public void onClick(View view) {
-                Intent i = new Intent(UserPage.this, Activity3.class);
-                startActivity(i);
-                finish();
-            }
-        });
-        pImage4.setOnClickListener(new View.OnClickListener() {
-            @Override
-            public void onClick(View view) {
-                Intent i = new Intent(UserPage.this, Activity4.class);
-                startActivity(i);
-                finish();
-            }
-        });
-        pImage5.setOnClickListener(new View.OnClickListener() {
-            @Override
-            public void onClick(View view) {
-                Intent i = new Intent(UserPage.this, Activity5.class);
-                startActivity(i);
-                finish();
-            }
-        });
-        pImage6.setOnClickListener(new View.OnClickListener() {
-            @Override
-            public void onClick(View view) {
-                Intent i = new Intent(UserPage.this, Activity6.class);
-                startActivity(i);
-                finish();
-            }
-        });
-        pImage7.setOnClickListener(new View.OnClickListener() {
-            @Override
-            public void onClick(View view) {
-                Intent i = new Intent(UserPage.this, Activity7.class);
-                startActivity(i);
-                finish();
-            }
-        });
-        pImage8.setOnClickListener(new View.OnClickListener() {
-            @Override
-            public void onClick(View view) {
-                Intent i = new Intent(UserPage.this, Activity8.class);
-                startActivity(i);
-                finish();
-            }
-        });
-        pImage9.setOnClickListener(new View.OnClickListener() {
-            @Override
-            public void onClick(View view) {
-                Intent i = new Intent(UserPage.this, Activity9.class);
-                startActivity(i);
-                finish();
-            }
-        });
-        pImage10.setOnClickListener(new View.OnClickListener() {
-            @Override
-            public void onClick(View view) {
-                Intent i = new Intent(UserPage.this, Activity10.class);
-                startActivity(i);
-                finish();
-            }
-        });
-        pImage11.setOnClickListener(new View.OnClickListener() {
-            @Override
-            public void onClick(View view) {
-                Intent i = new Intent(UserPage.this, Activity11.class);
-                startActivity(i);
-                finish();
-            }
-        });
-        pImage12.setOnClickListener(new View.OnClickListener() {
-            @Override
-            public void onClick(View view) {
-                Intent i = new Intent(UserPage.this, Activity12.class);
-                startActivity(i);
-                finish();
-            }
-        });
-        pImage13.setOnClickListener(new View.OnClickListener() {
-            @Override
-            public void onClick(View view) {
-                Intent i = new Intent(UserPage.this, Activity13.class);
-                startActivity(i);
-                finish();
-            }
-        });
-
 
         //assign image button to profile pic
         pImage = findViewById(R.id.profilepic);
