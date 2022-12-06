@@ -43,7 +43,7 @@ public class FirstFragment extends Fragment {
                 String password = binding.passwordBox.getText().toString();
                 Log.d("debug", username);
                 Log.d("debug", password);
-                if (username.equals("1") && password.equals("1")) {
+                if (username.equals("CS222User") && password.equals("CS222Password")) {
                     NavHostFragment.findNavController(FirstFragment.this)
                             .navigate(R.id.action_FirstFragment_to_SecondFragment);
                 } else {
