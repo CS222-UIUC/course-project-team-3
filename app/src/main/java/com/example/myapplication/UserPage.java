@@ -21,7 +21,6 @@ import androidx.appcompat.app.AppCompatActivity;
 
 public class UserPage extends AppCompatActivity {
     ImageButton pImage;
-    private static final int IMAGE_PICK_CODE = 1000;
     private static final int PERMISSION_CODE = 1001;
 
     @Override

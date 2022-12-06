@@ -40,7 +40,7 @@ public class SecondFragment extends Fragment {
         binding.buttonFriends.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-                Intent launchUp = new Intent(getActivity(),UserPage.class);
+                Intent launchUp = new Intent((Context)getActivity(),UserPage.class);
                 startActivity(launchUp);
             }
         });
