@@ -7,12 +7,13 @@ course-project-team-3 created by GitHub Classroom
 
 
 Introduction:
-
+Visionary - a bucket list application which allows users to create bucket lists and track their progression through the most important goals along with their friends.
 
 Installation Instructions:
 - Download the code onto Android Studio
-- Open using the android emulator
-- ...
+- Select the 1st Gen Pixel XL for the emulator
+- Open and run the app using the emulator
+- Log in using the username "CS222User" and password "CS222Password"
 
 Techinical:
 At the highest level of abstraction, we have the full application. Its conceptual goal is to provide the user with a platform from which they can communicate their 
