@@ -4,6 +4,98 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".Activity6">
+    tools:context=".SecondFragment">
+
+
+    <CheckBox
+        android:id="@+id/checkBox1"
+        android:layout_width="330dp"
+        android:layout_height="50dp"
+        android:buttonTint="#0A15ED"
+        android:fontFamily="@font/anaheim"
+        android:text="Ride a horse"
+        android:textSize="34sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.50"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.25" />
+
+    <CheckBox
+        android:id="@+id/checkBox2"
+        android:layout_width="330dp"
+        android:layout_height="50dp"
+        android:buttonTint="#0048FF"
+        android:fontFamily="@font/anaheim"
+        android:text="@string/n_a"
+        android:textSize="34sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.500"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.35" />
+
+    <CheckBox
+        android:id="@+id/checkBox3"
+        android:layout_width="330dp"
+        android:layout_height="50dp"
+        android:buttonTint="#00A4EF"
+        android:fontFamily="@font/anaheim"
+        android:text="@string/n_a"
+        android:textSize="34sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.500"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.45" />
+
+    <CheckBox
+        android:id="@+id/checkBox4"
+        android:layout_width="330dp"
+        android:layout_height="50dp"
+        android:buttonTint="#03EBF3"
+        android:fontFamily="@font/anaheim"
+        android:text="@string/n_a"
+        android:textSize="34sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.50"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.55" />
+
+    <CheckBox
+        android:id="@+id/checkBox5"
+        android:layout_width="330dp"
+        android:layout_height="50dp"
+        android:buttonTint="#02F8B3"
+        android:fontFamily="@font/anaheim"
+        android:text="@string/n_a"
+        android:textSize="34sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.65" />
+
+
+    <CheckBox
+        android:id="@+id/checkBox6"
+        android:layout_width="330dp"
+        android:layout_height="50dp"
+        android:buttonTint="#03FABF"
+        android:fontFamily="@font/anaheim"
+        android:text="@string/n_a"
+        android:textSize="34sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.75" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>
