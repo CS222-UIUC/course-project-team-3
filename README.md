@@ -11,7 +11,7 @@ Visionary - a bucket list application which allows users to create bucket lists 
 
 Installation Instructions:
 - Download the code onto Android Studio
-- Select the 1st Gen Pixel XL for the emulator
+- Select the a phone and API for the emulator (we used the 1st Gen Pixel XL API 30)
 - Open and run the app using the emulator
 - Log in using the username "CS222User" and password "CS222Password"
 
